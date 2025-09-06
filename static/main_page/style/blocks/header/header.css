@@ -1,0 +1,27 @@
+.header {
+    background: #fff;
+    padding: 2rem 3rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #222;
+    margin: 0;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #666;
+    font-weight: 600;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+}
+
+.header__link:hover {
+    color: #007BFF;
+}

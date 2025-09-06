@@ -1,0 +1,15 @@
+@import 'global/root.css';
+@import 'global/container.css';
+@import 'global//section.css';
+@import 'global/fonts.css';
+
+@import 'blocks/header/header.css';
+@import 'blocks/header/header__max-width-600.css';
+
+@import 'blocks/projects/projects__list.css';
+@import 'blocks/projects/project-card.css';
+
+@import 'blocks/skills/skills__list.css';
+@import 'blocks/skills/skill.css';
+
+@import 'blocks/footer.css';

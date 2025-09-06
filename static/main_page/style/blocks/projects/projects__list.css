@@ -1,0 +1,9 @@
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
+
+.projects__item {
+    width: 100%;    
+}

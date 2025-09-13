@@ -10,5 +10,9 @@ def home():
 def w_wave():
     return render_template('layouts/w-wave.html')
 
+@app.route('/skillbox')
+def skillbox():
+    return render_template('skillbox/index.html') 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
